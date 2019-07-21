@@ -1,0 +1,19 @@
+#main {
+				width: 80%;
+				height: 400px;
+				margin: auto;
+				padding: 10px;
+				background: #cfe1ca;
+				border: 10px outset #f9c6aa;
+				line-height: 30px;
+				color: #9f3c61;
+				font-size: 18px;
+			}
+			p {
+				text-indent: 30px;
+			}
+			.fh{
+				position: absolute;
+				top: 416px;
+				left: 925px;
+			}

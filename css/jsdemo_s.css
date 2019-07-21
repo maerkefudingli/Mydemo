@@ -1,0 +1,62 @@
+a {
+	color: white;
+	text-decoration: none;
+	line-height: 100px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.a {
+	background-color: black;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+}
+
+.b {
+	background-color: red;
+	position: absolute;
+	left: 658px;
+	top: 85px;
+}
+
+.c {
+	background-color: blue;
+	position: absolute;
+	left: 458px;
+	top: 85px;
+}
+
+.d {
+	background-color: yellow;
+	position: absolute;
+	left: 458px;
+	top: 284px;
+}
+
+.e {
+	background-color: green;
+	position: absolute;
+	left: 658px;
+	top: 284px;
+}
+
+._fh4 {
+	position: absolute;
+	left: 0px;
+	top: -57px;
+	width: 50px;
+	height: 20px;
+}
+p{
+	color: #000000;
+}

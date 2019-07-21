@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	background-image:url(../img/bg.jpg);
+	}
+#a{
+	width:173px;
+	height:125px;
+	background-image:url(../img/sfish.png);
+	animation:change 3s infinite running steps(11), changea 20s infinite linear;
+	
+	
+	}
+#b{
+	width:509px;
+	height:245px;
+	background-image:url(../img/bfish.png);
+	animation:change 3s infinite running steps(11),changeb 20s infinite linear;
+	
+	}
+	#c{
+	width:173px;
+	height:125px;
+	background-image:url(../img/sfish.png);
+	animation:change 3s infinite running steps(11), changec 10s infinite linear;
+	
+	
+	}
+	#d{
+	width:173px;
+	height:125px;
+	background-image:url(../img/sfish.png);
+	animation:change 3s infinite running steps(11), changed 50s infinite linear;
+	
+	
+	}
+	._fh{
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+	}
+	@keyframes change{
+		0%{
+			
+			background-position-y:0%;}
+		100%{
+			background-position-y:100%;}
+		
+		}
+	@keyframes changea{
+		0%{
+			transform:translateX(500px) translateY(1000px) rotate(-90deg);}
+		50%{transform:translateX(500px) translateY(500px);}
+		100%{
+			transform:translateX(1000px) translateY(-100px);}
+		}
+	@keyframes changeb{
+			0%{
+				transform:translateX(0px);}
+			100%{
+				transform:translateX(1350px) translateY(100px);}
+			
+			}
+	@keyframes changec{
+		0%{
+			transform:translateX(1300px) rotate(180deg);}
+		50%{transform:translateX(200px) translateY(0px) rotate(-180deg);}
+		100%{
+			transform:translateX(-100px) translateY(100px) rotate(180deg);}
+		}
+	@keyframes changed{
+		0%{
+			transform:translateX(0px);}
+		50%{transform:translateX(1200px) translateY(0px);}
+		100%{
+			transform:translateX(1350px) translateY(100px);}
+		}

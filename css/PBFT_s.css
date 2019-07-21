@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+#yd {
+	width: 365px;
+	height:20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+a {
+	color: red;
+	font-family: "方正舒体";
+	font-size: 30px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: chartreuse;
+}

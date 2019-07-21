@@ -1,0 +1,38 @@
+body{
+	margin:0;
+	background-color:#FFF;}
+.index{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	width:500px;
+	height:500px;
+	background-color:#FFF;
+	filter:blur(10px) contrast(100px);
+	margin:0 auto;
+	}
+.circle{width:96px;
+	    height:96px;
+	    background-color:#000;
+		border-radius:50%;
+		
+		}
+.circle:nth-child(2){
+	
+	
+	animation:change 2s infinite alternate;
+	}
+@keyframes change{
+	0%{
+		box-shadow:350px 0 0 #000;}
+	100%{
+		box-shadow:-350px 0 0 #000;
+	}
+	
+	}
+	._fh3{
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #0000FF;
+	}

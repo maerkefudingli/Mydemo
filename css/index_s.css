@@ -1,0 +1,122 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				overflow: hidden;
+			}
+			#top {
+				position: absolute;
+				width: 100%;
+				height: 150px;
+
+			}
+
+			#logo {
+				position: absolute;
+				width: 150px;
+				height: 150px;
+				float: left;
+			}
+
+			#header {
+				margin-left: 150px;
+				position: relative;
+				width: 1216px;
+				height: 150px;
+				float: left;
+				background-image: url(../img/s1.jpg);
+			}
+
+			#mark {
+				position: absolute;
+				left: 0px;
+				top: 90px;
+
+			}
+
+			#time {
+				width: 360px;
+				height: 150px;
+				position: relative;
+				left: 840px;
+				top: 87px;
+
+			}
+
+			#bgm {
+				width: 200px;
+				height: 50px;
+				position: relative;
+				left: 878px;
+				top: -149px;
+				opacity: 0.5;
+			}
+
+			#bottom {
+				position: absolute;
+				left: 0;
+				top: 150px;
+
+				width: 100%;
+				height: 460px;
+
+			}
+
+			#body {
+				border: 5px  double red;
+				position: absolute;
+				top: 0;
+				left: 250px;
+				width: 1116px;
+				height: 460px;
+				background-color: azure;
+				float: left;
+			}
+
+			#left {
+				position: relative;
+				top: 0;
+				left: 0;
+				height: 460px;
+				width: 250px;
+				background-color: aqua;
+			}
+
+			span {
+				font-family: "楷体";
+				font-size: 24px;
+				color: blue;
+				line-height: 50px;
+
+
+
+			}
+
+			p {
+				text-align: center;
+			}
+
+			font {
+				font-family: '隶书';
+				font-size: 40pt;
+				text-shadow: 5px 5px 5px #00FFFF;
+			}
+
+			li a {
+				border-radius: 25px;
+				padding: 9px 90px;
+				display: block;
+				text-decoration: none;
+				background-color: antiquewhite;
+			}
+			li a:hover{
+				background-color:white;
+			}
+			iframe{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 1116px;
+				height: 460px;
+			}

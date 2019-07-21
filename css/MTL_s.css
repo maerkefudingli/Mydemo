@@ -1,0 +1,72 @@
+#a{
+	position:relative;
+	width:768px;
+	height:768px;
+	background-image:url(../img/fsw.png);
+	animation:changea 10s infinite linear;
+	
+	}
+@keyframes changea{
+	from{
+		
+		transform:rotate(0deg);}
+	to{
+		transform:rotate(360deg);}
+	}
+	#b,#c,#d,#e{
+		position:relative;
+		width:130px;
+		height:170px;}
+		#b{
+			top:-54px;
+			left:325px;
+			background-image:url(../img/boy.png);
+			animation:changeb 10s infinite linear;}
+			@keyframes changeb{
+			from{
+		
+		transform:rotate(0deg);}
+	to{
+		transform:rotate(-360deg);}
+	}
+		#c{
+				top:119px;
+			    left:640px; 
+				background-image:url(../img/girl.png);
+				animation:changec 10s infinite linear;}
+				@keyframes changec{
+				from{
+		
+		transform:rotate(0deg);}
+	to{
+		transform:rotate(-360deg);}
+	}
+		#d{
+			top:-66px;
+			left:0px;
+			background-image:url(../img/shamegirl.png);
+			animation:changed 10s infinite linear;}
+			@keyframes changed{
+			from{
+		
+		transform:rotate(0deg);}
+	to{
+		transform:rotate(-360deg);}
+	}
+	#e{
+			top:122px;
+			left:330px;
+			background-image:url(../img/G.jpg);
+			animation:changee 10s infinite linear;}
+			@keyframes changee{
+			from{
+		
+		transform:rotate(0deg);}
+	to{
+		transform:rotate(-360deg);}
+	}
+	._fh2{
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
